@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - Desencriptador Challenge!</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header> 
+        <img class="logo-dev" src="./Imagenes/Logo@2x.png" alt="Logo de Alura">
+    </header>       
+
+    <main>
+        <section class="input-section">
+            <textarea class="text-input" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="info">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="buttons">
+                <button class="btn-encriptador" onclick="btnEncriptador()">Encriptar</button>
+                <button class="btn-desencriptador" onclick="btnDesencriptador()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="output-section">
+            <textarea class="message" cols="20" rows="10"></textarea>
+            <button class="copy">Copiar</button>
+        </section>
+    </main>
+    <script src="./app/app.js"></script>
+</body>
+</html>
